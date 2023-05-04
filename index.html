@@ -9,7 +9,7 @@
 </head>
 <body class="font-serif	">
     <div class="h-1/2 bg-gradient-to-t from-sky-500 relative lg:h-screen overflow-hidden">
-        <nav class="w-full fixed top-0 bg-white ">
+        <nav class="w-full fixed top-0 bg-white z-10">
             <div class="container mx-auto py-3 flex justify-between items-center ">
                 <div class="flex items-center gap-1">
                     <img class="w-1/6" src="./Assets/Logo white.png" alt="">
@@ -17,7 +17,7 @@
                 </div>
                 <ul class="hidden md:flex space-x-10 text-gray-600 font-bold text-sm uppercase">
                     <li class="hover: text-gray-500 "><a href="#"> HomePage</a></li>
-                    <li class="hover: text-gray-500 "><a href="#"> About</a></li>
+                    <li class="hover: text-gray-500 "><a href="#about"> About</a></li>
                     <li class="hover: text-gray-500 "><a href="#"> Works</a></li>
                     <li class="hover: text-gray-500 "><a href="#"> Services</a></li>
                     <li class="hover: text-gray-500 "><a href="#"> Contact</a></li>
@@ -39,6 +39,63 @@
         </nav>
         <img class="absolute md:bottom-0 right-0 left-0 mx-auto md:h-1/2" src="./Assets/perfil.PNG" alt="">
         <div class="hidden lg:block absolute -bottom-1/4 right-0 left-0 mx-auto w-[48rem] h-[48rem] bg-sky-900 rounded-full -z-10"></div>
+
+        <div class="absolute top-1/3 left-5 text-xl sm:left-10 sm:text-6xl font-bold">
+            <span class="text-black">Freelance</span>
+            <p class="text-violet-700 font-bold">Developer</p>
+        </div>
+
+        <div class="hidden lg:flex flex-col gap-5 rounded-md shadow-lg shadow-violet-500 absolute top-0 bottom-0 m-auto right-10 bg-white p-6 h-fit w-1/3 ">
+            <h1 class="text-4xl font-bold text-sky-900">Hello, I'm William</h1>
+            <p class="text-gray-400">My experience as a developer is based on university practices and various projects that I have undertaken in my free time for learning, adventure, and love for development.</p>
+            <a href="#contact" class="bg-sky-600 text-white text-xl px-3 py-2 rounded-md font-semibold w-fit">Hire Me</a>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container mx-auto py-40 flex gap-20">
+            <div class="relative ">
+                <div class=" rounded-full overflow-hidden">
+                    <img class="w-[50rem] h-[30rem]" src="./Assets/perfil.PNG" alt="">
+                </div>
+            </div>
+
+            <div class="my-auto flex flex-col gap-3">
+                <h1 class="text-sky-600 font-bold">ABOUT ME</h1>
+                <h1 class="text-3xl font-medium">Better Develop</h1>
+                <h1 class="text-3xl font-medium">Better Attitude</h1>
+                <p class="text-gray-400">I develop software with a backend in Node.js and a frontend in React (I can also use Next.js). My focus is on good practices, efficient and conscious scalability, and recursive programming. Despite my limited experience, I am willing to learn everything that is necessary to achieve the proposed objective.</p>
+
+                <h2 class="text-gray-400 font-medium">HTML</h2>
+                <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                    <div class="w-full bg-sky-600 h-1.5 rounded-md">
+                    </div>
+                </div>
+
+                <h2 class="text-gray-400 font-medium">JAVASCRIPT</h2>
+                <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                    <div class="w-5/6 bg-sky-600 h-1.5 rounded-md">
+                    </div>
+                </div>
+
+                <h2 class="text-gray-400 font-medium">REACT</h2>
+                <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                    <div class="w-4/6 bg-sky-600 h-1.5 rounded-md">
+                    </div>
+                </div>
+
+                <h2 class="text-gray-400 font-medium">NEXT JS</h2>
+                <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                    <div class="w-3/6 bg-sky-600 h-1.5 rounded-md">
+                    </div>
+                </div>
+
+                <h2 class="text-gray-400 font-medium">NODE JS</h2>
+                <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                    <div class="w-3/6 bg-sky-600 h-1.5 rounded-md">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="./main.js"></script>
 </body>
