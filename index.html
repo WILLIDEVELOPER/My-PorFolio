@@ -8,7 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="font-serif	">
-    <div class="h-1/2 bg-gradient-to-t from-sky-500 relative lg:h-screen overflow-hidden">
+    <div id="home" class="h-1/2 bg-gradient-to-t from-sky-500 relative lg:h-screen overflow-hidden">
         <nav class="w-full fixed top-0 bg-white z-10">
             <div class="container mx-auto py-3 flex justify-between items-center ">
                 <div class="flex items-center gap-1">
@@ -16,11 +16,11 @@
                     <span class="text-2xl font-bold text-sky-500">Portafolio.</span>
                 </div>
                 <ul class="hidden md:flex space-x-10 text-gray-600 font-bold text-sm uppercase">
-                    <li class="hover: text-gray-500 "><a href="#"> HomePage</a></li>
+                    <li class="hover: text-gray-500 "><a href="#home"> HomePage</a></li>
                     <li class="hover: text-gray-500 "><a href="#about"> About</a></li>
-                    <li class="hover: text-gray-500 "><a href="#"> Works</a></li>
-                    <li class="hover: text-gray-500 "><a href="#"> Services</a></li>
-                    <li class="hover: text-gray-500 "><a href="#"> Contact</a></li>
+                    <li class="hover: text-gray-500 "><a href="#works"> Works</a></li>
+                    <li class="hover: text-gray-500 "><a href="#services"> Services</a></li>
+                    <li class="hover: text-gray-500 "><a href="#contact"> Contact</a></li>
                 </ul>
                 <img src="./Assets/moon.png" class="hidden md:block w-5 cursor-pointer" alt="">
                 <div id="hamburger" class="md:hidden space-y-1 cursor-pointer z-20 p-2">
@@ -51,11 +51,12 @@
             <a href="#contact" class="bg-sky-600 text-white text-xl px-3 py-2 rounded-md font-semibold w-fit">Hire Me</a>
         </div>
     </div>
+
     <div id="about">
         <div class="container mx-auto py-40 flex gap-20">
             <div class="relative ">
                 <div class=" rounded-full overflow-hidden">
-                    <img class="w-[50rem] h-[30rem]" src="./Assets/perfil.PNG" alt="">
+                    <img class="w-[60rem] h-[30rem]" src="./Assets/perfil.PNG" alt="">
                 </div>
             </div>
 
@@ -94,6 +95,117 @@
                     <div class="w-3/6 bg-sky-600 h-1.5 rounded-md">
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container mx-auto">
+            <div class="flex flex-col gap-3 items-center">
+                <h1 class="text-sky-600 font-bold">SERVICES</h1>
+                <h1 class="text-3xl">What do i offer?</h1>
+                <p class="w-1/2 text-center text-gray-400 ">I can offer the company a reliable and efficient software development service. With my expertise in Node.js and React, as well as my focus on good programming practices, scalability, and recursive programming, I am capable of creating high-quality software that meets the needs of the company.</p>
+            </div>
+
+            <div class="grid grid-cols-3 gap-[2rem] text-center p-10">
+
+                <div class="flex flex-col gap-[1rem] items-center shadow-xl rounded-lg p-5">
+                    <img class="w-[80px]" src="./Assets/html.jpg" alt="">
+                    <h1 class="text-sky-600 font-bold">Layout design / Project structuring</h1>
+                    <p>I have gained experience practicing HTML during my time in university and personal projects. Although I lack professional experience, I am confident in my ability to use HTML in software development.</p>
+                </div>
+
+                
+                <div class="flex flex-col gap-[1rem] items-center shadow-xl rounded-lg p-5">
+                    <img class="w-[60px]" src="./Assets/tailwind.png" alt="">
+                    <h1 class="text-sky-600 font-bold">Tailwind CSS proficiency</h1>
+                    <p>As a recent graduate with a strong foundation in front-end development, I am eager to continue learning and exploring new frameworks like Tailwind to enhance my skills</p>
+                </div>
+
+                
+                <div class="flex flex-col gap-[1rem] items-center shadow-xl rounded-lg p-5">
+                    <img class="w-[60px]" src="./Assets/javascript.png" alt="">
+                    <h1 class="text-sky-600 font-bold">Dynamic web development with JavaScript</h1>
+                    <p>While I may not have professional experience, I have a solid understanding of JavaScript and have worked on various personal projects using the language.</p>
+                </div>
+
+                <div class="flex flex-col gap-[1rem] items-center shadow-xl rounded-lg p-5">
+                    <img class="w-[60px]" src="./Assets/react.png" alt="">
+                    <h1 class="text-sky-600 font-bold">Efficient web development with React</h1>
+                    <p>As a recent graduate with a passion for front-end development, I have dedicated significant time to learning React </p>
+                </div>
+
+                <div class="flex flex-col gap-[1rem] items-center shadow-xl rounded-lg p-5">
+                    <img class="w-[60px]" src="./Assets/nextjs.png" alt="">
+                    <h1 class="text-sky-600 font-bold">Efficient server-side rendering with Next.js</h1>
+                    <p>Although I may lack professional experience, I am confident in my ability to use Next.js to create fast and scalable web applications.</p>
+                </div>
+
+                <div class="flex flex-col gap-[1rem] items-center shadow-xl rounded-lg p-5">
+                    <img class="w-[70px]" src="./Assets/nodejs.png" alt="">
+                    <h1 class="text-sky-600 font-bold">Server-side web development with Node.js</h1>
+                    <p>As a recent graduate with a solid foundation in back-end development, I am confident in my ability to utilize Node.js to create robust and scalable web applications.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div id="works">
+        <div class="container mx-auto">
+            <div class="flex flex-col gap-3 items-center">
+                <h1 class="text-sky-600 font-bold">WORKS</h1>
+                <h1 class="text-3xl">What have I done?</h1>
+                <p class="w-1/2 text-center text-gray-400 ">As a recent graduate, my experience in software development mainly comes from projects I completed during my time in university and my personal projects. However, these experiences have given me a solid foundation in programming concepts and the ability to quickly learn new technologies. I am eager to apply this knowledge and work collaboratively with the team to develop high-quality software that meets the needs of the company.</p>
+            </div>
+
+            <div class="grid grid-cols-3 gap-[2rem] text-center p-10">
+
+                <div class="flex flex-col gap-[1rem] items-center shadow-xl rounded-lg p-5">
+                    <img class="w-full" src="./Assets/html.jpg" alt="">
+                    <div class="w-full flex">
+                        <a href="#" class="bg-sky-600 text-white text-xl px-3 py-2 rounded-md font-semibold w-fit">View More</a>
+                    </div>
+                </div>
+
+                
+                <div class="flex flex-col gap-[1rem] items-center shadow-xl rounded-lg p-5">
+                    <img class="w-full" src="./Assets/html.jpg" alt="">
+                    <div class="w-full flex">
+                        <a href="#" class="bg-sky-600 text-white text-xl px-3 py-2 rounded-md font-semibold w-fit">View More</a>
+                    </div>
+                </div>
+
+                
+                <div class="flex flex-col gap-[1rem] items-center shadow-xl rounded-lg p-5">
+                    <img class="w-full" src="./Assets/html.jpg" alt="">
+                    <div class="w-full flex">
+                        <a href="#" class="bg-sky-600 text-white text-xl px-3 py-2 rounded-md font-semibold w-fit">View More</a>
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-[1rem] items-center shadow-xl rounded-lg p-5">
+                    <img class="w-full" src="./Assets/html.jpg" alt="">
+                    <div class="w-full flex">
+                        <a href="#" class="bg-sky-600 text-white text-xl px-3 py-2 rounded-md font-semibold w-fit">View More</a>
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-[1rem] items-center shadow-xl rounded-lg p-5">
+                    <img class="w-full" src="./Assets/html.jpg" alt="">
+                    <div class="w-full flex">
+                        <a href="#" class="bg-sky-600 text-white text-xl px-3 py-2 rounded-md font-semibold w-fit">View More</a>
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-[1rem] items-center shadow-xl rounded-lg p-5">
+                    <img class="w-full" src="./Assets/html.jpg" alt="">
+                    <div class="w-full flex">
+                        <a href="#" class="bg-sky-600 text-white text-xl px-3 py-2 rounded-md font-semibold w-fit">View More</a>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
