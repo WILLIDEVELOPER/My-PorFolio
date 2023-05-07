@@ -229,11 +229,12 @@
                 <p class="w-1/2 text-center text-gray-400 ">Do you have any questions? Please leave them below and we will discuss them soon.</p>
             </div>
 
-            <form class="mt-5 flex flex-col items-center gap-[1rem]">
-                <input class="p-2 w-full ring-1 ring-sky-300 rounded-sm" type="text" placeholder="name">
-                <input class="p-2 w-full ring-1 ring-sky-300 rounded-sm" type="email" placeholder="email">
-                <textarea class="p-2 w-full ring-1 ring-sky-300 rounded-sm"  cols="30" rows="10" placeholder="Message..."></textarea>
-                <button class="w-1/2 bg-sky-600 font-medium text-white px-3 py-2 rounded-md cursor-pointer">Submit</button>
+            <form action="https://formsubmit.co/williamdevoficial@gmail.com" method="POST" class="mt-5 flex flex-col items-center gap-[1rem]">
+                <input name="name" class="p-2 w-full ring-1 ring-sky-300 rounded-sm" type="text" placeholder="name">
+                <input name="email" class="p-2 w-full ring-1 ring-sky-300 rounded-sm" type="email" placeholder="email">
+                <input name="subject" class="p-2 w-full ring-1 ring-sky-300 rounded-sm" type="text" placeholder="asunto">
+                <textarea name="comments" class="p-2 w-full ring-1 ring-sky-300 rounded-sm"  cols="30" rows="10" placeholder="Message..."></textarea>
+                <button type="submit" class="w-1/2 bg-sky-600 font-medium text-white px-3 py-2 rounded-md cursor-pointer">Submit</button>
             </form>
         </div>
     </div>
