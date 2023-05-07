@@ -7,22 +7,22 @@
     <title>William -Portafolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="font-serif	">
-    <div id="home" class="h-1/2 bg-gradient-to-t from-sky-500 relative lg:h-screen overflow-hidden">
-        <nav class="w-full fixed top-0 bg-white z-10">
+<body class="font-serif">
+    <div id="home" class="h-1/2 bg-gradient-to-t from-sky-500 relative lg:h-screen overflow-hidden dark:from-slate-800 dark:to-slate-900">
+        <nav class="w-full fixed top-0 bg-white z-10 dark:bg-slate-900">
             <div class="container mx-auto py-3 flex justify-between items-center ">
                 <div class="flex items-center gap-1">
                     <img class="w-1/6" src="./Assets/Logo white.png" alt="">
-                    <span class="text-2xl font-bold text-sky-500">Portafolio.</span>
+                    <span class="text-2xl font-bold text-sky-500 dark:text-white">Portafolio.</span>
                 </div>
-                <ul class="hidden md:flex space-x-10 text-gray-600 font-bold text-sm uppercase">
+                <ul class="hidden md:flex space-x-10 text-gray-600 dark:text-gray-100 font-bold text-sm uppercase">
                     <li class="hover:text-sky-500 "><a href="#home"> HomePage</a></li>
                     <li class="hover:text-sky-500 "><a href="#about"> About</a></li>
                     <li class="hover:text-sky-500 "><a href="#works"> Works</a></li>
                     <li class="hover:text-sky-500 "><a href="#services"> Services</a></li>
                     <li class="hover:text-sky-500 "><a href="#contact"> Contact</a></li>
                 </ul>
-                <img src="./Assets/moon.png" class="hidden md:block w-5 cursor-pointer" alt="">
+                <!-- <img id="moon" src="./Assets/moon.png" class="hidden dark:bg-white dark:rounded-full md:block w-5 cursor-pointer" alt=""> -->
                 <div id="hamburger" class="md:hidden space-y-1 cursor-pointer z-20 p-2">
                     <div class="w-6 h-0.5 bg-black"></div>
                     <div class="w-6 h-0.5 bg-black"></div>
@@ -41,18 +41,18 @@
         <div class="hidden lg:block absolute -bottom-1/4 right-0 left-0 mx-auto w-[48rem] h-[48rem] bg-sky-900 rounded-full -z-10"></div>
 
         <div class="absolute top-1/3 left-5 text-xl sm:left-10 sm:text-6xl font-bold">
-            <span class="text-black">Freelance</span>
+            <span class="text-black dark:text-white">Freelance</span>
             <p class="text-violet-700 font-bold">Developer</p>
         </div>
 
-        <div class="hidden lg:flex flex-col gap-5 rounded-md shadow-lg shadow-violet-500 absolute top-0 bottom-0 m-auto right-10 bg-white p-6 h-fit w-1/3 ">
+        <div class="hidden lg:flex flex-col gap-5 rounded-md shadow-lg shadow-violet-500 absolute top-0 bottom-0 m-auto right-10 bg-white p-6 h-fit w-1/3 dark:bg-slate-900 dark:shadow-slate-500">
             <h1 class="text-4xl font-bold text-sky-900">Hello, I'm William</h1>
             <p class="text-gray-400">My experience as a developer is based on university practices and various projects that I have undertaken in my free time for learning, adventure, and love for development.</p>
             <a href="#contact" class="bg-sky-600 text-white text-xl px-3 py-2 rounded-md font-semibold w-fit">Hire Me</a>
         </div>
     </div>
 
-    <div id="about">
+    <div id="about" class="dark:bg-slate-900">
         <div class="container mx-auto py-40 flex gap-20">
             <div class="relative ">
                 <div class=" rounded-full overflow-hidden">
@@ -62,8 +62,8 @@
 
             <div class="my-auto flex flex-col gap-3">
                 <h1 class="text-sky-600 font-bold">ABOUT ME</h1>
-                <h1 class="text-3xl font-medium">Better Develop</h1>
-                <h1 class="text-3xl font-medium">Better Attitude</h1>
+                <h1 class="text-3xl font-medium dark:text-white">Better Develop</h1>
+                <h1 class="text-3xl font-medium dark:text-white">Better Attitude</h1>
                 <p class="text-gray-400">I develop software with a backend in Node.js and a frontend in React (I can also use Next.js). My focus is on good practices, efficient and conscious scalability, and recursive programming. Despite my limited experience, I am willing to learn everything that is necessary to achieve the proposed objective.</p>
 
                 <h2 class="text-gray-400 font-medium">HTML</h2>
@@ -99,11 +99,11 @@
         </div>
     </div>
 
-    <div id="services">
+    <div id="services" class="dark:bg-slate-900">
         <div class="container mx-auto">
             <div class="flex flex-col gap-3 items-center">
                 <h1 class="text-sky-600 font-bold">SERVICES</h1>
-                <h1 class="text-3xl">What do i offer?</h1>
+                <h1 class="text-3xl dark:text-white">What do i offer?</h1>
                 <p class="w-1/2 text-center text-gray-400 ">I can offer the company a reliable and efficient software development service. With my expertise in Node.js and React, as well as my focus on good programming practices, scalability, and recursive programming, I am capable of creating high-quality software that meets the needs of the company.</p>
             </div>
 
@@ -112,39 +112,39 @@
                 <div class="flex flex-col gap-[1rem] items-center shadow-xl rounded-lg p-5">
                     <img class="w-[80px]" src="./Assets/html.jpg" alt="">
                     <h1 class="text-sky-600 font-bold">Layout design / Project structuring</h1>
-                    <p>I have gained experience practicing HTML during my time in university and personal projects. Although I lack professional experience, I am confident in my ability to use HTML in software development.</p>
+                    <p class="text-gray-400 dark:text-white">I have gained experience practicing HTML during my time in university and personal projects. Although I lack professional experience, I am confident in my ability to use HTML in software development.</p>
                 </div>
 
                 
                 <div class="flex flex-col gap-[1rem] items-center shadow-xl rounded-lg p-5">
                     <img class="w-[60px]" src="./Assets/tailwind.png" alt="">
                     <h1 class="text-sky-600 font-bold">Tailwind CSS proficiency</h1>
-                    <p>As a recent graduate with a strong foundation in front-end development, I am eager to continue learning and exploring new frameworks like Tailwind to enhance my skills</p>
+                    <p class="text-gray-400 dark:text-white">As a recent graduate with a strong foundation in front-end development, I am eager to continue learning and exploring new frameworks like Tailwind to enhance my skills</p>
                 </div>
 
                 
                 <div class="flex flex-col gap-[1rem] items-center shadow-xl rounded-lg p-5">
                     <img class="w-[60px]" src="./Assets/javascript.png" alt="">
                     <h1 class="text-sky-600 font-bold">Dynamic web development with JavaScript</h1>
-                    <p>While I may not have professional experience, I have a solid understanding of JavaScript and have worked on various personal projects using the language.</p>
+                    <p class="text-gray-400 dark:text-white">While I may not have professional experience, I have a solid understanding of JavaScript and have worked on various personal projects using the language.</p>
                 </div>
 
                 <div class="flex flex-col gap-[1rem] items-center shadow-xl rounded-lg p-5">
                     <img class="w-[60px]" src="./Assets/react.png" alt="">
                     <h1 class="text-sky-600 font-bold">Efficient web development with React</h1>
-                    <p>As a recent graduate with a passion for front-end development, I have dedicated significant time to learning React </p>
+                    <p class="text-gray-400 dark:text-white" >As a recent graduate with a passion for front-end development, I have dedicated significant time to learning React </p>
                 </div>
 
                 <div class="flex flex-col gap-[1rem] items-center shadow-xl rounded-lg p-5">
                     <img class="w-[60px]" src="./Assets/nextjs.png" alt="">
                     <h1 class="text-sky-600 font-bold">Efficient server-side rendering with Next.js</h1>
-                    <p>Although I may lack professional experience, I am confident in my ability to use Next.js to create fast and scalable web applications.</p>
+                    <p class="text-gray-400 dark:text-white">Although I may lack professional experience, I am confident in my ability to use Next.js to create fast and scalable web applications.</p>
                 </div>
 
                 <div class="flex flex-col gap-[1rem] items-center shadow-xl rounded-lg p-5">
                     <img class="w-[70px]" src="./Assets/nodejs.png" alt="">
                     <h1 class="text-sky-600 font-bold">Server-side web development with Node.js</h1>
-                    <p>As a recent graduate with a solid foundation in back-end development, I am confident in my ability to utilize Node.js to create robust and scalable web applications.</p>
+                    <p class="text-gray-400 dark:text-white">As a recent graduate with a solid foundation in back-end development, I am confident in my ability to utilize Node.js to create robust and scalable web applications.</p>
                 </div>
 
             </div>
@@ -152,11 +152,11 @@
         </div>
     </div>
 
-    <div class="p-20" id="works">
+    <div  id="works" class="dark:bg-slate-900 p-20">
         <div class="container mx-auto">
             <div class="flex flex-col gap-3 items-center">
                 <h1 class="text-sky-600 font-bold">WORKS</h1>
-                <h1 class="text-3xl">What have I done?</h1>
+                <h1 class="text-3xl  dark:text-white">What have I done?</h1>
                 <p class="w-1/2 text-center text-gray-400 ">As a recent graduate, my experience in software development mainly comes from projects I completed during my time in university and my personal projects. However, these experiences have given me a solid foundation in programming concepts and the ability to quickly learn new technologies. I am eager to apply this knowledge and work collaboratively with the team to develop high-quality software that meets the needs of the company.</p>
             </div>
 
@@ -215,32 +215,32 @@
             </div>
 
             <div class="w-full flex flex-col gap-[0.3rem] justify-center items-center">
-                <img class="w-20" src="./Assets/git.png" alt="">
+                <img class="w-20 " src="./Assets/git.png" alt="">
                 <a href="https://github.com/WILLIDEVELOPER" class="text-sky-700 font-bold text-xl hover:underline capitalize">GitHub personal profile</a>
             </div>
         </div>
     </div>
 
-    <div class="p-20" id="contact">
+    <div class="dark:bg-slate-900 p-20" id="contact">
         <div class="container mx-auto">
             <div class="flex flex-col gap-3 items-center">
                 <h1 class="text-sky-600 font-bold">CONTACT</h1>
-                <h1 class="text-3xl">Have a Question?</h1>
+                <h1 class="text-3xl  dark:text-white">Have a Question?</h1>
                 <p class="w-1/2 text-center text-gray-400 ">Do you have any questions? Please leave them below and we will discuss them soon.</p>
             </div>
 
             <form action="https://formsubmit.co/williamdevoficial@gmail.com" method="POST" class="mt-5 flex flex-col items-center gap-[1rem]">
-                <input name="name" class="p-2 w-full ring-1 ring-sky-300 rounded-sm" type="text" placeholder="name">
-                <input name="email" class="p-2 w-full ring-1 ring-sky-300 rounded-sm" type="email" placeholder="email">
-                <input name="subject" class="p-2 w-full ring-1 ring-sky-300 rounded-sm" type="text" placeholder="asunto">
-                <textarea name="comments" class="p-2 w-full ring-1 ring-sky-300 rounded-sm"  cols="30" rows="10" placeholder="Message..."></textarea>
+                <input name="name" class="p-2 w-full ring-1 ring-sky-300 rounded-sm dark:bg-slate-900 dark:text-white dark:ring-1" type="text" placeholder="name">
+                <input name="email" class="p-2 w-full ring-1 ring-sky-300 rounded-sm dark:bg-slate-900 dark:text-white dark:ring-1" type="email" placeholder="email">
+                <input name="subject" class="p-2 w-full ring-1 ring-sky-300 rounded-sm dark:bg-slate-900 dark:text-white dark:ring-1" type="text" placeholder="asunto">
+                <textarea name="comments" class="p-2 w-full ring-1 ring-sky-300 rounded-sm dark:bg-slate-900 dark:text-white dark:ring-1"  cols="30" rows="10" placeholder="Message..."></textarea>
                 <button type="submit" class="w-1/2 bg-sky-600 font-medium text-white px-3 py-2 rounded-md cursor-pointer">Submit</button>
             </form>
         </div>
     </div>
 
     <footer>
-        <nav class="w-full bg-gray-800 p-5">
+        <nav class="w-full bg-gray-800 dark:bg-slate-800 p-5">
             <div class="container mx-auto py-3 flex justify-between items-center ">
                 <div class="flex items-center gap-1">
                     <img class="w-6" src="./Assets/logo black.png" alt="">
